@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Cold English";
+  src: url("/assets/ColdEnglish.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: "Cold English";
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 6vw;
+  padding: 0 1vw;
+}
+
+h1 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 6vw;
+}
