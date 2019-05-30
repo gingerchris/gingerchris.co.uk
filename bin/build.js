@@ -92,7 +92,7 @@ const build = async () => {
   const template = await loadTemplate();
   const pages = await loadDir("./src/pages/");
   const posts = await loadDir("./src/posts");
-  console.log(pages);
+
   await Promise.all(
     [...pages, ...posts].map(file =>
       filePathIntoTemplate(file.path, template, { pages, posts })
